@@ -48,5 +48,5 @@ app.use((req, res) => {
     res.status(404).sendFile(path.join(__dirname, "views/error404.html"));
   });
   
-data.initialize().then(app.listen(HTTP_PORT, onHttpStart()));
+data.initialize().then(app.listen(HTTP_PORT, onHttpStart));
 //app.listen(HTTP_PORT, onHttpStart());
