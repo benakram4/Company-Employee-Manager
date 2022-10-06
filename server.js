@@ -4,13 +4,13 @@ var app = express();
 var path = require("path"); // include moduel path to use __dirname, and function path.join()
 var data = require("./data-service.js");
 
-var HTTP_PORT = process.env.PORT || 8080;  // || : or
+var HTTP_PORT = process.env.PORT || 8080;
 
 app.use(express.static('public'));
 
 // call this function after the http server starts listening for requests
 function onHttpStart(){
-    console.log("Express http server listening on: " + HTTP_PORT);
+    console.log("Express http server listening on port: " + HTTP_PORT);
 }
 
 app.get("/", function(req, res){
