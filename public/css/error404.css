@@ -7,14 +7,13 @@ html {
     background-image: url(../css/assets/404-confused-icon.png);
     background-repeat: no-repeat;
     background-position: center;
-    /* background-position-x: 200px; */
+    background-position-y:209px;
 }
 
 body{
     font-family: 'Lato', sans-serif;
     color: #888;
     margin: 0;
-    
 }
 
 #main{
