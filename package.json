@@ -1,5 +1,5 @@
 {
-  "name": "bti325-app",
+  "name": "Company-Employee-Manager",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/benakram4/bti325-app.git"
+    "url": "git+https://github.com/benakram4/Company-Employee-Manager.git"
   },
   "author": "Ben Akram",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/benakram4/bti325-app/issues"
+    "url": "https://github.com/benakram4/Company-Employee-Manager/issues"
   },
-  "homepage": "https://github.com/benakram4/bti325-app#readme",
+  "homepage": "https://github.com/benakram4/Company-Employee-Manager#readme",
   "dependencies": {
     "express": "^4.18.1",
     "multer": "^1.4.5-lts.1",
